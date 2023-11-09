@@ -1,0 +1,8 @@
+<launch>
+<node pkg="ros_hw_pub_sub" type="topic_publisher" name="topic_publisher"/>
+<node pkg="ros_hw_pub_sub" type="topic_subscriber" name="topic_subscriber"/>
+
+<param name="num1" type="int" value="0"/>
+<param name="num2" type="int" value="0"/>
+<param name="mymessage" type="string" value="0"/>
+</launch>
